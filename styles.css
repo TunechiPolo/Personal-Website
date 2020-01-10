@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+
+/* Banner and Navigation Section */
+.navigation {
+    background-color:#333333;
+    display: flex;
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    justify-content: center;
+}
+.navigation-ul {
+    margin: auto 70px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    color:#F5F5F7;
+}
+
+
+/* Header and Title Section */
+.header {
+    /*background-color: #333333; change this to same color as nav bar?*/
+    background-color: black;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 300px;
+    height: 750px;
+}
+.header-title {
+    color:#F5F5F7;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+}
+.header-text {
+    color:#F5F5F7;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+/* About Me Section */
+#about {
+    background-color: #fbfbfd;
+    display: flex;
+    justify-content: space-between;
+}
+.about-1-1{
+    border: 2px solid black;
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+}
+.about-image, img {
+    text-align: center;
+    height: 300px;
+    width: auto;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+#about-1, #about-2 { /*REMOVE THIS for ONE column, keep for TWO.*/
+    display: flex; 
+    justify-content: space-between;
+    border: 2px solid black;
+}
+.about-2-1 {
+    border: 2px solid black;
+    margin: 10px 100px;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.about-2-2 {
+    border: 2px solid black;
+    margin: 10px 100px;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+/* Experience and Project Section Tiles */
+#exp-proj {
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+#experience {
+    background-color: #fbfbfd;
+    margin: auto 10px auto auto;
+    flex: 1;
+    width: 100%;
+    height: 450px;
+}
+.experience-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+}
+.experience-text {
+    text-align: center;
+    margin: 10px 100px;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+#projects {
+    background-color: #fbfbfd;
+    flex: 1;
+}
+.projects-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+}
+.projects-text {
+    text-align: center;
+    margin: 10px 100px;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+/* Contact Section */
+#contact {
+    background-color: #F5F5F7;
+    color: #515154;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.contact-text {
+    border-top: 1px solid #515154;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
