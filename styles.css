@@ -18,13 +18,26 @@
     position: fixed;
     justify-content: center;
 }
+.navigation-m {
+    margin: auto 70px;
+    width: 20px;
+    height: auto;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    border: 1px solid #F5F5F7;
+}
 .navigation-ul {
     margin: auto 70px;
     font-size: 14px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
+    transition-duration: 0.3s;
 }
-a {
+.nav-a {
     color:#F5F5F7;
 }
 
@@ -55,20 +68,39 @@ a {
 
 
 
-/* About Me Section */
+/* About Section */
 #about {
     background-color: #fbfbfd;
     display: flex;
     justify-content: space-between;
+    margin: 10px 10px;
 }
-.about-1-1{
-    border: 2px solid black;
-    padding-top: 40px;
+.about-1 {
+    margin: 10px 10px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 35px;
+    flex-basis: 30%;
+}
+.about-2 {
+    margin: 10px 10px;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    flex-basis: 35%;
+}
+.about-3 {
+    margin: 10px 10px;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    flex-basis: 35%;
 }
 .about-image, img {
     text-align: center;
@@ -77,85 +109,89 @@ a {
     border-radius: 50%;
     margin-top: 10px;
 }
-#about-1, #about-2 { /*REMOVE THIS for ONE column, keep for TWO.*/
-    display: flex; 
-    justify-content: space-between;
-    border: 2px solid black;
-}
-.about-2-1 {
-    border: 2px solid black;
-    margin: 10px 100px;
-    padding: 10px;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-}
-.about-2-2 {
-    border: 2px solid black;
-    margin: 10px 100px;
-    padding: 10px;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
+#news-link {
+    color: black;
 }
 
 
 
-/* Experience and Project Section Tiles */
+
+/* Front Page - Experience and Project Tiles */
 #exp-proj {
     display: flex;
-    margin: 10px auto;
     justify-content: space-between;
+    margin: 10px 10px;
 }
-#experience {
+.exp-proj-1 {
     background-color: #fbfbfd;
-    margin: auto 10px auto auto;
-    flex: 1;
-    width: 100%;
     height: 450px;
+    flex-basis: 50%;
+    margin-right: 5px;
 }
-.experience-title {
-    display: flex;
-    justify-content: center;
-    padding-top: 75px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 35px;
-}
-.experience-text {
-    text-align: center;
-    margin: 10px 100px;
-    padding: 10px;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-}
-#projects {
+.exp-proj-2 {
     background-color: #fbfbfd;
-    flex: 1;
+    height: 450px;
+    flex-basis: 50%;
+    margin-left: 5px;
 }
-.projects-title {
-    display: flex;
-    justify-content: center;
+.exp-proj-title {
+    text-align: center;
     padding-top: 75px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 35px;
+    color: black;
 }
-.projects-text {
+.exp-proj-text {
     text-align: center;
-    margin: 10px 100px;
     padding: 10px;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
+    color: black;
 }
+
+
+
+/* Experience Page */
+#exp-1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    height: 750px;
+    border: 2px solid green;
+}
+.exp-role-1 {
+    background-color: #F5F5F7;
+    flex: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    border: 2px solid salmon;
+}
+.exp-role-1-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    margin-left: 10px;
+}
+.exp-desc-1 {
+    background-color: #F5F5F7;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    border: 2px solid salmon;
+    width: 70%;
+}
+
+
+
+
 
 
 /* Contact Section */

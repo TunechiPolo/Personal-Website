@@ -1,4 +1,4 @@
-1. Create/assign links.
-2. Makeover the links (remove the blue underline hyperlink).
+1. Add in a Home button.
+2. Add in PDF resume, as a <img> tag that can expand when clicked on.
 3. Add in a JavaScript function, changing the color of the button
    (or a Dark Mode/Light Mode toggle).
